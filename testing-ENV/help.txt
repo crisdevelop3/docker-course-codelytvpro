@@ -1,0 +1,10 @@
+Run app without env flag, so it will show the error
+
+docker build -t "codelytv-test-env" .
+docker run —rm -e DISPLAY_ERRORS=Off -p 8000:80 "codelytv-test-env"
+
+Run app with env flag so it'll depend of the value to show or not the error
+
+docker run —rm -e DISPLAY_ERRORS=Off -p 8000:80 "codelytv-hello-world-php" 
+
+
