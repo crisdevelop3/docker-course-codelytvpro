@@ -1,0 +1,25 @@
+{
+    "name": "vendor-name/app",
+    "description": "Descripción de tu proyecto",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "tu@email.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "twig/twig": "^3.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
