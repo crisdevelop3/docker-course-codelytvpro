@@ -1,0 +1,25 @@
+{
+    "name": "vendor-name/multicontainer",
+    "description": "Descripción de tu proyecto",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "tu@email.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "doctrine/dbal": "^2.10",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
